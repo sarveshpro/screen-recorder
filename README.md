@@ -1,3 +1,7 @@
+# Screen Recorder
+
+![image](https://user-images.githubusercontent.com/27153515/90726271-0fddcd00-e2df-11ea-94df-d12aad3106c5.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
