@@ -1,38 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+button,
+.btn {
+  font-weight: 600;
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: aquamarine;
+  color: black;
+  border: 2px black solid;
+}
+
+.btn-secondary {
+  background-color: plum;
+  color: black;
+  border: 2px black solid;
+}
+
+.btn-social {
+  background-color: greenyellow;
+  color: black;
+  border: 2px black solid;
+}
+
+.btn-youtube {
+  background-color: red;
+  color: white;
+  border: 2px black solid;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 42px;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.replay-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.share-recording {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.video-preview {
+  width: 100%;
+  max-width: 600px;
 }
